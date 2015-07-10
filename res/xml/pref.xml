@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_normal_title" >
+        <Preference android:title="@string/pref_appearance_title" >
+            <intent
+                android:targetClass="com.hyy.jingweibo.ui.preference.AppearanceActivity"
+                android:targetPackage="@string/applicationId" />
+        </Preference>
+        <!--
+        <Preference android:title="@string/pref_read_title" >
+            <intent
+                android:targetClass="org.qii.weiciyuan.ui.preference.ReadActivity"
+                android:targetPackage="@string/applicationId" />
+        </Preference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sound"
+            android:title="@string/pref_sound_title" />
+        -->
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory android:title="@string/pref_advanced_title" >
+        <Preference
+            android:summary="@string/notification_summary"
+            android:title="@string/notification" >
+            <intent
+                android:targetClass="org.qii.weiciyuan.ui.preference.NotificationActivity"
+                android:targetPackage="@string/applicationId" />
+        </Preference>
+        <Preference
+            android:key="draft"
+            android:title="@string/draft" >
+            <intent
+                android:targetClass="org.qii.weiciyuan.ui.preference.DraftActivity"
+                android:targetPackage="@string/applicationId" />
+        </Preference>
+        <Preference
+            android:key="data_control"
+            android:title="@string/pref_data_control_title" >
+            <intent
+                android:targetClass="org.qii.weiciyuan.ui.preference.ControlActivity"
+                android:targetPackage="@string/applicationId" />
+        </Preference>
+        <Preference
+            android:key="filter"
+            android:title="@string/filter" >
+            <intent
+                android:targetClass="org.qii.weiciyuan.ui.preference.FilterActivity"
+                android:targetPackage="@string/applicationId" />
+        </Preference>
+        <Preference android:title="@string/pref_performance_title" >
+            <intent
+                android:targetClass="org.qii.weiciyuan.ui.preference.PerformanceActivity"
+                android:targetPackage="@string/applicationId" />
+        </Preference>
+        <Preference android:title="@string/pref_other_title" >
+            <intent
+                android:targetClass="org.qii.weiciyuan.ui.preference.OtherActivity"
+                android:targetPackage="@string/applicationId" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_about_title" >
+        <Preference android:title="@string/pref_about_title" >
+            <intent
+                android:targetClass="org.qii.weiciyuan.ui.preference.AboutActivity"
+                android:targetPackage="@string/applicationId" />
+        </Preference>
+    </PreferenceCategory>
+    -->
+
+</PreferenceScreen>

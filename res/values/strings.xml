@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">婧微博</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_jwbauth">登陆界面</string>
+    <string name="sign_in">登陆</string>
+    <string name="add">新建</string>
+    <string name="weibosdk_demo_token_to_string_format_1">Token：%1$s \n有效期：%2$s</string>
+    <string name="weibosdk_demo_token_has_existed">Token 仍在有效期内，无需再次登录。</string>
+    <string name="weibosdk_demo_toast_auth_success">授权成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">授权失败</string>
+    <string name="weibosdk_demo_toast_auth_canceled">取消授权</string>
+    <string name="weibosdk_demo_access_token_is_empty">Access Token 不存在，请先登录</string>
+
+    <!-- time -->
+    <string name="year">年前</string>
+    <string name="month">月前</string>
+    <string name="day">天前</string>
+    <string name="hour">小时前</string>
+    <string name="min">分钟前</string>
+    <string name="sec">秒前</string>
+    <string name="justnow">刚刚</string>
+    <string name="yesterday">昨天</string>
+    <string name="the_day_before_yesterday">前天</string>
+    <string name="today">今天</string>
+    <string name="date_format">M月d日 HH:mm</string>
+    <string name="year_format">yyyy年 M月d日 HH:mm</string>
+
+    <!-- slide menu -->
+    <string name="title_section1">首页</string>
+    <string name="title_section2">注销</string>
+    <string name="title_section3">设置</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Other -->
+    <string name="action_example">Example action</string>
+    <string name="auth_btn_login">Auth Login</string>
+    <string name="auth_btn_tomain">Go To Main</string>
+    <string name="add_account">Add account</string>
+    <string name="token_has_expired">已过期</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_appearance">AppearanceActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- application id -->
+    <string name="applicationId">com.hyy.jingweibo</string>
+
+    <!-- -Setting -->
+    <string name="setting">设置</string>
+    <string name="pref_normal_title">常规</string>
+    <string name="pref_sound_title">音效</string>
+    <string name="pref_auto_refresh_title">首页自动刷新</string>
+    <string name="pref_auto_refresh_summary">仅在 Wifi 网络下有效，新消息提示条会保持显示状态</string>
+    <string name="pref_advanced_title">高级</string>
+    <string name="have_selected">已经选择了%s项</string>
+
+    <!-- Setting Appearance -->
+    <string name="pref_appearance_title">显示</string>
+    <string name="pref_theme_title">主题</string>
+    <string name="pref_listview_title">列表</string>
+    <string name="pref_list_pic_mode_title">图片</string>
+    <string name="pref_list_high_pic_mode_title">高清图片</string>
+    <string name="pref_list_avatar_mode_title">头像</string>
+    <string name="pref_font_size_title">字体大小</string>
+    <string name="pref_fast_scroll_title">快速滚动</string>
+
+    <!-- timeline -->
+    <string name="refresh">刷新</string>
+    <string name="refreshing">刷新中……</string>
+    <string name="no_new_message">没有新消息</string>
+    <string name="total">共计</string>
+    <string name="new_messages_count">%s条新消息</string>
+    <string name="new_messages">条新消息</string>
+    <string name="old_messages">条旧消息</string>
+    <string name="weibos">条微博</string>
+    <string name="loading">载入中……</string>
+    <string name="click_to_load_some_older_msg">点击载入中间数据</string>
+    <string name="loading_middle_msg">载入中间数据……</string>
+    <string name="click_to_load_older_message">网络有问题，点击重新载入</string>
+    <string name="older_message_empty">没有更早的消息了</string>
+    <string name="more">载入更多</string>
+
+    <!-- listview -->
+    <string name="empty">空</string>
+
+    <!-- system -->
+    <string name="timeout">网络有问题，连不上</string>
+    <string name="unknown_error_error_code">未知错误，错误代码</string>
+    <string name="unknown_sina_network_error">新浪微博某些网络节点又出故障，换个网络试试</string>
+    <string name="sd_card_in_not_mounted">SD卡未挂载</string>
+    <string name="something_error">发生故障</string>
+    <string name="please_deleted_cache_dir">权限出错，无法读取存储空间，需要用户手动删除SD卡下的
+        /Android/data/com.hyy.jingweibo 目录</string>
+
+    
+    <!-- menu-->
+    <string name="askdelete">删除?</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="ok">确定</string>
+    <string name="cancel_draft">不用</string>
+    <string name="askdeletemessage">永久删除这条消息?</string>
+
+    <!--dialog-->
+    <string name="something_wrong">出错了！</string>
+    <string name="tip">提示</string>
+    
+</resources>
