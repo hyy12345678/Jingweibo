@@ -1,7 +1,6 @@
 package com.hyy.jingweibo.ui.adapter;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.WeakHashMap;
 
@@ -14,7 +13,6 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
-import com.google.common.base.Splitter;
 import com.hyy.jingweibo.generator.JWBStatus;
 import com.hyy.jingweibo.generator.JWBUser;
 import com.hyy.jingweibo.support.settinghelper.SettingUtility;

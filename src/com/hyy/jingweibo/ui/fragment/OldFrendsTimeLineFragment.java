@@ -108,7 +108,7 @@ public class OldFrendsTimeLineFragment extends
 		progressBar = ViewUtility.findViewById(view, R.id.progressbar);
 		progressBar.setVisibility(View.GONE);
 		pullToRefreshListView = ViewUtility.findViewById(view, R.id.listView);
-
+		
 		getListView().setHeaderDividersEnabled(false);
 		getListView().setScrollingCacheEnabled(false);
 
